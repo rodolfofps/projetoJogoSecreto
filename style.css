@@ -138,3 +138,27 @@ button:disabled {
         padding: 1rem
     }
 }
+
+    a {
+        position: fixed;
+        bottom: 20px; /* Ajuste a distância da parte inferior da tela */
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 16px; /* Ajuste o tamanho da fonte, se necessário */
+        color: #000; /* Cor do texto do link */
+        text-decoration: none; /* Remove o sublinhado do link */
+        
+        padding: 10px 20px; /* Padding para deixar o link mais "clicável" */
+        /* border-radius: 5px; Bordas arredondadas */
+        font-size: 16px;
+        color: #fff;
+        font-weight: 500;    
+        text-decoration: none;
+    
+    
+    
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
